@@ -1,0 +1,10 @@
+.popup__image {
+    max-width: 80vw;
+    max-height: 80vh;
+  }
+  
+  @media screen and (max-width: 540px) {
+    .popup__content-image {
+      width: calc(100% - 60px);
+    }
+  }
