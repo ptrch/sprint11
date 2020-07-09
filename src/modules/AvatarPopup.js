@@ -1,4 +1,5 @@
-class AvatarPopup extends Popup {
+import Popup from "./Popup";
+export default class AvatarPopup extends Popup {
     constructor(openButton, closeButton, namePopup, container, form, api) {
 
         super(openButton, closeButton, namePopup, container);
