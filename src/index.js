@@ -109,4 +109,3 @@ import UserInfo from "./modules/UserInfo.js";
     const validatorAvatar = new FormValidator(formAvatar, errorMessages, chAvatar);
     validatorAvatar.setEventListeners(); 
   })();
-  
