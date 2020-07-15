@@ -21,23 +21,23 @@ module.exports = {
         use: {
           loader: "babel-loader"
         },
-        test: /\.js$/, // include .js files
-        enforce: "pre", // preload the jshint loader
-        exclude: /node_modules/, // exclude any and all files in the `node_modules folder`
-        use: [
-            {
-            loader: "babel-loader",
-              options: {
-                presets: [
-                  "@babel/preset-env"      
-                ],
-                plugins: [
-                  "@babel/plugin-syntax-dynamic-import",
-                  "@babel/plugin-proposal-class-properties"
-                ]
-              }
-            }
-        ]
+        // test: /\.js$/, // include .js files
+        // enforce: "pre", // preload the jshint loader
+        // exclude: /node_modules/, // exclude any and all files in the `node_modules folder`
+        // use: [
+        //     {
+        //     loader: "babel-loader",
+        //       options: {
+        //         presets: [
+        //           "@babel/preset-env"      
+        //         ],
+        //         plugins: [
+        //           "@babel/plugin-syntax-dynamic-import",
+        //           "@babel/plugin-proposal-class-properties"
+        //         ]
+        //       }
+        //     }
+        // ]
       },
       {
         test: /\.css$/i,
